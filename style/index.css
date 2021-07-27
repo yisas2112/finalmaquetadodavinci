@@ -1,0 +1,991 @@
+.social-icons li a i{
+    color: black;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    width: 75rem;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.button__conocermas{
+    width: 9.375rem;
+    height: 1.875rem;
+    background-color: #839786;    
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.938rem;
+    
+}
+
+.button__conocermas__text{    
+    text-decoration: none;
+    color: white;
+    font-size: 0.813rem;    
+}
+
+/*Header y nabvar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 60rem;
+    height: 8.75rem;
+    font-family: 'Rubik', sans-serif;    
+}
+
+.logo{
+    width: 6.25rem;
+    height: 6.25rem;
+    background-image: url("../images/logo.jpg");
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 1.25rem;
+    margin-right: 1.875rem;
+    
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#principal{        
+    justify-content: space-between;    
+    height: 30.6875rem;
+    background-image: url('../images/home-islas-feroe-dinamarca.jpg');
+    background-repeat: no-repeat;
+
+}
+
+#principal__contacto{        
+    justify-content: space-between;    
+    height: 30.6875rem;
+    background-image: url('../images/home-islas-feroe-dinamarca2.jpg');
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    width: 60rem;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    font-size: 3.4375rem;
+    margin-top: 1.875rem;
+}
+
+.nav__subtitulo__principal{
+    width: 60rem;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Noto Serif', serif;
+    color: #738677;
+    font-size: 2.5rem;
+}
+
+/*Seccion Primera*/
+#seccion__primera{    
+    width: 60rem;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+}
+.seccion__primera_titulo__text{
+    width: 450px;
+    
+}
+
+#seccion__primera p{
+    text-align: justify;
+}    
+
+p, span{
+    font-size: 1.125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    line-height: 1.9;    
+}
+
+/*Segunda Sección*/
+#seccion__segunda__container{    
+    width: 75rem;
+    
+    background-image: url('../images/paisaje10.jpg');    
+    
+}
+
+.seccion__segunda{
+    width: 60rem;
+    height: 37.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+    margin: auto;
+}
+.seccion__segunda img{
+    height: 26.25rem;
+    width: 21.875rem;
+}
+
+.seccion__segunda__texto__button{
+    width: 31.25rem;    
+}
+
+.seccion__segunda__texto__button p{
+    color: white;
+    text-align: justify;
+}
+
+
+/*Gastronomía*/
+#gastronomia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 1.875rem 0;
+}
+#gastronomia h2{
+    margin-bottom: 1.875rem;
+}
+
+#gastronomia h3{
+    margin-bottom: 0.9375rem;
+}
+
+.gastronomia__comidas__container{
+    display: flex;
+    width: 60rem;    
+    
+}
+
+.gastronomia__comidas{
+    width: 20rem;    
+    text-align: center;    
+    
+    
+}
+
+/*Eventos y Celebraciones*/
+#eventos_celebraciones__container{
+    width: 75rem;
+    background-color: #373737;
+    padding: 1.875rem 0;
+    
+    
+}
+
+.eventos_celebraciones{
+    width: 60rem;
+    margin: auto;
+    color: white;
+}
+
+.eventos_celebraciones h2{
+    margin-bottom: 1.875rem;
+}
+
+.eventos_celebraciones__texto{
+    column-count: 2;  
+    margin-bottom: 1.25rem;  
+    text-align: justify;
+    column-gap: 1.5625rem;
+}
+
+.eventos_celebraciones span{
+    font-weight: bold;    
+    
+    
+}
+
+.eventos_celebraciones__texto__imagen{
+    display: flex;
+    justify-content: space-between;    
+    
+}
+
+.eventos_celebraciones__texto__imagen p{
+    width: 26.25rem;
+    text-align: justify;
+}
+
+.button__conocermas__eventos{    
+    width: 8.125rem;
+    height: 1.875rem;
+    background-color: #839786;    
+    border-radius: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.9375rem;
+    
+}
+
+.button__conocermas__eventos a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8125rem;        
+}    
+
+#datos__container{
+    width: 75rem;
+    background-color: #373737;
+    padding: 1.875rem 0;    
+    border-top: #738677 0.25rem solid;
+    
+}
+
+.datos{
+    margin: auto;
+    width: 60rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3.125rem;
+}
+
+
+
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #283642;     
+    
+}
+
+.footer__container{
+    width: 60rem;
+    margin: auto;
+    padding-top: 1.25rem;    
+}
+
+.footer__logo__redes__apps__container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo{
+    display: flex;    
+    align-items: center;
+}
+
+.footer__logo .logo{
+    margin-right: 0.9375rem;
+
+}
+
+.footer__logo h2{
+    color: white;
+    font-size: 1.5625rem;
+}
+
+.footer__redes{
+    width: 17.1875rem;
+    display: flex;    
+    justify-content: space-between;
+    margin: 1.25rem 0;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer__redes__ig{
+    height: 1.9375rem;
+    width: 1.9375rem;        
+    
+}
+
+
+.footer__redes__fc{
+    height: 1.9375rem;
+    width: 1.9375rem;
+}
+
+.footer__redes__tw{
+    height: 1.9375rem;
+    width: 1.9375rem;    
+
+}
+
+.footer__redes__gm{
+    height: 1.9375rem;
+    width: 1.9375rem;
+    
+
+}
+
+.footer_apps{
+    width: 17.1875rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;    
+}
+
+.links__apps{
+    height: 2.25rem;
+    width: 7.125rem;
+    position: absolute;      
+}
+
+.footer__playstore{
+    width: 7.125rem;
+    height: 2.25rem;
+    
+}
+
+.footer__applestore{
+    width: 7.125rem;
+    height: 2.25rem;    
+    margin-bottom: 1.25rem;
+}
+
+.footer__contacto__container{    
+    color: white;    
+}
+
+.footer__contacto{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    
+}
+.footer__contacto__icon_email{
+    width: 3.9375rem;
+    height: 3.9375rem;
+    background-image: url('../icons/email.png');
+    background-size: cover;
+    margin-right: 1.25rem;
+}
+
+.footer__contacto__suscripcion_input input{
+    height: 1.5625rem;    
+    border: 0rem;
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+
+.footer__contacto__suscripcion_input input::placeholder{
+    color: #373737;
+    font-size: 0.9375rem;
+
+}
+
+.footer__contacto__suscripcion_input button{
+    width: 3.75rem;
+    height: 1.5625rem;
+    background-color: #839786;
+    color: white;
+    border: none;
+    margin-left: -0.25rem;    
+}
+
+.footer__copyright{
+    color: white;
+    display: flex;    
+    justify-content: center;
+    
+}
+
+.footer__copyright span{
+    font-size: 0.9375rem;
+    margin-bottom: 0.3125rem;
+}
+/*---------------------------------Historia-------------------------------------*/
+/*Primera Sección*/
+.primera__seccion__container{
+    width: 60rem;
+    margin: auto;
+}
+
+.primera__seccion__container p{
+    column-count: 2;
+    column-gap: 2.8125rem;
+    text-align: justify;    
+    word-spacing: 0.125rem;
+}
+
+.primera__seccion__bandera__escudos{
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem 0;
+}
+
+.primera__seccion__bandera__escudos img{
+    margin-right: 1.25rem;
+}
+
+.imagen__casas_islas__feroe{
+    width: 75rem;
+    height: 21rem;
+    background-image: url('../images/imagen-casas-islas-feroe.jpg');
+}
+
+/*Sección Segunda*/
+.segunda__seccion__container{
+    width: 75rem;       
+    background-color: #373737;
+    color: white;    
+    
+}
+
+.segunda__seccion{
+    width: 60rem;    
+    height: 40.625rem; 
+    margin: auto;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.segunda__seccion h2{
+    margin-bottom: 1.25rem;   
+}
+
+.segunda__seccion strong{
+    margin-bottom: 0.9375rem;
+}
+
+.segunda__seccion p{
+    column-count: 2;    
+    column-gap: 2.5rem;
+    text-align: justify;    
+    word-spacing: 0.0625rem;
+}
+
+.segunda__seccion blockquote{
+    width: 43.75rem;
+    text-align: justify;    
+    line-height: 2.1875rem;
+    margin: auto;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    word-spacing: 0.0625rem;
+}
+
+/*Sección Tercera*/
+.seccion_tercera__container{
+    width: 75rem;
+    height: 35.1875rem;
+    background-image: url('../images/fondo-historia.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+    display: flex;
+}
+
+.seccion_tercera{
+    width: 60rem;
+    margin: auto;
+}
+
+.seccion_tercera p{
+    width: 28.125rem;
+    text-align: justify;    
+    word-spacing: 0.0625rem;
+}
+
+.seccion_tercera h2{
+    margin-bottom: 0.9375rem;
+}
+
+
+
+/*-----------------------------------Lugares---------------------------------*/
+/* Gjogv*/
+.lugares__container{
+    width: 75rem;    
+}
+
+.lugares_gjogv{
+    width: 60rem;
+    margin: auto;
+}
+.lugares_gjogv h2{
+    margin-bottom: 1.25rem;
+}
+
+.lugares_gjogv p{
+    column-count: 2;
+    text-align: justify;        
+    column-gap: 40px;
+    margin-bottom: 1.25rem;
+
+}
+/* klaksvik */
+.lugares__klaksvik__container{
+    width: 75rem;
+    background-color: #373737;
+    color: white;
+    margin-top: -0.25rem;        
+}
+.lugares__klaksvik{
+    width: 60rem;   
+    margin: auto;    
+    padding: 1.875rem 0;
+}
+
+.lugares__klaksvik__texto__imagen{
+    display: flex;    
+}
+
+.lugares__klaksvik__texto__imagen p{
+    text-align: justify;
+    margin-right: 1.875rem;
+}
+
+/*Mykines*/
+.lugares__mykines__container{
+    width: 60rem;
+    margin: auto;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.lugares__mykines__container h2{
+    margin-bottom: 0.9375rem;
+}
+
+.lugares__mykines__imagen__text img{
+    float: left;
+    margin-right: 1.25rem;
+}
+
+.lugares__mykines__imagen__text p{
+    text-align: justify;
+    word-spacing: 0.0625rem;
+
+}
+
+/* Lago sorvagsvatn*/
+
+.lugares__sorvagsvatn__container{
+    width: 75rem;
+    background-color: #373737;
+    color: white;
+}
+
+.lugares__sorvagsvatn{
+    width: 60rem;
+    margin: auto;
+    padding-top: 1.25rem;
+}
+
+
+
+.lugares__sorvagsvatn p{
+    column-count: 2;
+    text-align: justify;
+    column-gap: 2.5rem;
+    word-spacing: 0.0625rem; 
+    margin-bottom: 1.25rem; 
+}
+
+.lugares__sorvagsvatn img{
+    margin-bottom: 1.875rem;
+}
+
+/*kalsoy*/
+
+.lugares__kalsoy__container{
+    width: 1200px;
+    background-image: url('../images/paisaje-islas.jpg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #F6F8F7;    
+    padding-top: 1.875rem;
+    
+
+}
+
+.lugares__kalsoy{
+    width: 60rem;
+    margin: auto;    
+    
+    padding-bottom: 1.875rem;
+}
+
+.lugares__kalsoy p{
+    column-count: 2;
+    
+}
+
+.lugares__kalsoy img{
+    margin-bottom: 1.875rem;
+}
+
+.lugares__kalsoy h3{
+    color: white;
+    margin-bottom: 0.9375rem;
+
+}
+
+.lugares__kalsoy__text_white{
+    color:white;
+    text-align: justify;
+    column-gap: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*-------------------------------------- Eventos ------------------ */
+.eventos_titulo_descripcion{
+    width: 60rem;
+    margin: auto;
+    margin-bottom: 1.875rem;
+}
+
+.eventos_titulo_descripcion p{
+    column-count: 2;
+    text-align: justify;
+    column-gap: 1.875rem;
+}
+
+.eventos_titulo_descripcion h2{
+    margin-bottom: 0.9375rem;
+}
+
+/*Olavsoka*/
+.evento__olavsoka__container{
+    width: 75rem;
+    background-color: #373737;
+    color: white;
+    padding: 1.875rem 0;
+}
+
+.evento__olavsoka{
+    width: 60rem;
+    margin: auto;
+}
+
+.evento__olavsoka h3{
+    margin-bottom: 0.9375rem;
+}
+.evento__olavsoka p{
+    column-count: 2;
+    text-align: justify;
+    margin-bottom: 0.9375rem;
+    column-gap: 1.875rem;
+}
+
+
+.evento__olavsoka img{
+    margin-bottom: -0.25rem;
+}
+
+/*G! Festival in Eysturoy*/
+
+.evento__g{
+    width: 60rem;
+    margin: auto;
+    padding: 1.875rem 0;
+}
+
+.evento__g p{
+    column-count: 2;
+    text-align: justify;
+    column-gap: 1.875rem;
+}
+
+.evento__g h3{
+    margin-bottom: 0.9375rem;
+}
+
+/*Summartónar*/
+.evento__summartonar__container{
+    width: 75rem;
+    background-color: #373737;
+    color: white;
+    padding: 1.875rem 0;
+}
+
+.evento__summartonar{
+    width: 60rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.evento__summartonar__titulo__texto h3{
+    margin-bottom: 0.9375rem;
+}
+
+.evento__summartonar__titulo__texto p{
+    text-align: justify;
+    margin-right: 1.25rem;
+
+}
+
+
+
+/*Torsfest*/
+
+.evento__torsfest{
+    width: 60rem;
+    margin: auto;
+    padding-top: 1.875rem;
+    display: flex;
+    margin-bottom: 1.875rem;
+    align-items: center;
+}
+
+.evento__torsfest__titulo_text h3{
+    margin-bottom: 0.9375rem;
+}
+
+.evento__torsfest__titulo_text p{
+    text-align: justify;
+    margin-right: 1.25rem;
+}
+
+
+
+/*Á grynnuni*/
+.evento__agrynnuni__container{
+    width: 75rem;
+    background-color: #373737;
+    color: white;
+    padding: 1.875rem 0;
+}
+
+.evento__agrynnuni{
+    width: 60rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.evento__agrynnuni h3{
+    margin-bottom: 1.25rem;
+}
+
+.evento__agrynnuni p{
+    margin-right: 1.25rem;
+    text-align: justify;
+}
+
+/******************************************************************/
+/*Formulario*/
+
+#form__main__container{
+    width: 75rem;
+    position: relative;
+    background: linear-gradient(to bottom,#343434, #373737);    
+    padding: 2.5rem 0;
+    
+}
+
+.form__container{
+    width: 60rem;   
+    height: 37.5rem;         
+    background-image: url('../images/fondo-form.jpg');    
+    background-repeat: no-repeat;      
+    margin: auto;
+    display: flex;        
+    justify-content: center;        
+}
+
+.form label{
+    display: block;
+}
+
+.form{    
+    height: 37.5rem;    
+    background-color: rgb(55,55,55,0.8);
+    display: flex;
+    align-items: center;
+}
+
+form{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.form__titulo__desc{
+    width: 60rem;   
+    height: 37.5rem; 
+    flex-direction: column;
+    display: flex;    
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.form__titulo__desc h2{
+    margin-left: 1.25rem;
+}
+
+.form__titulo__desc span{
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+video{    
+    width: 16.5625rem;
+    
+    margin: auto;
+    
+}
+input{
+    width: 12.5rem;
+    height: 1.875rem;
+    border: none;    
+    background: transparent;    
+    border-bottom: 0.125rem white solid;    
+    margin: 1.25rem;
+    color: white;
+}
+
+label{
+    width: 12.5rem;
+    height: 1.875rem;    
+    background: transparent;        
+    margin: 1.25rem 1.25rem 0.3125rem 1.25rem;
+    font-size: 1.25rem;
+    
+}
+
+::placeholder { 
+    color: white;
+    font-size: 1.25rem;
+    opacity: 1; 
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+select{
+    width: 11.875rem;
+    height: 1.875rem;
+    background: transparent;    
+    color: white;
+    border: none;    
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.125rem white solid;    
+}
+
+select option{    
+    color: black;
+    
+}
+
+.colocar_mensaje{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 0.3125rem;
+}
+
+textarea{
+    width: 12.5rem;
+    height: 11.25rem;
+    font-size: 1.25rem;
+    background: transparent;    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.9375rem;
+    
+}
+
+form button{
+    width: 9.375rem;
+    height: 1.875rem;
+    background-color: #839786;    
+    border-radius: 1.875rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+
+.go__to__up{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('../icons/up-arrow.svg');
+    position:fixed;
+    right: 0vw;
+    bottom: 0vh;
+    margin-right: 1.875rem;
+    margin-bottom: 1.875rem;
+    z-index: 1;
+}
+
+
+#nav__list__lugares ul{
+    display: none;
+}
+
+
+#nav__list__lugares{
+    height: 1.75rem;
+    width: 4.6875rem;
+}
+
+#nav__list__lugares:hover > ul{    
+    display: block;
+    color: white;    
+    position: absolute;
+    margin-left: -2.75rem;
+    border-color: black;
+    
+    
+}
+
+
+.nav_list_sections:hover{
+    border-bottom: 0.125rem #839786 solid;
+
+}
+
+#nav__list__lugares:hover > ul > li{    
+    width: 4.6875rem;
+    height: 1.75rem;
+    
+    border-bottom: 0.125rem #839786 solid;
+    margin: 0.625rem 0 0.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+  }
