@@ -48,10 +48,23 @@ nav{
     font-family: 'Rubik', sans-serif;    
 }
 
+.nav-mobile{
+    display: none;
+}
+
 .logo{
     width: 6.25rem;
     height: 6.25rem;
     background-image: url("../images/logo.jpg");
+}
+
+.logo-mobile{
+    display: none;
+    
+}
+
+.nav__menu__burger__icon{
+    display: none;
 }
 
 nav ul{
@@ -984,8 +997,105 @@ form button{
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 70%;
     }
+    body{
+        width: 100%;
+    }
+
+    #principal{
+        height: 20rem;
+        background-size:contain;
+        
+    }
+    .logo-mobile{
+        display: flex;
+        width: 70px;
+        height: 70px;
+        background-image: url("../images/logo-mobile.jpg");
+    }
+
+    .nav{
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: none;
+    }
+
+    .nav__menu__burger__icon{
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+
+    #seccion__primera{    
+        width: 80%;
+        display: flex;
+        margin:auto;
+        flex-direction: column;
+    }
+
+    h1{
+        margin: auto;
+        width: 80%;
+        
+    }
+
+    /*Segunda Sección Home*/
+    .seccion__primera_titulo__text{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    #seccion__primera img{
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        margin-top: 1rem;
+    }    
+
+    #seccion__segunda__container{
+        width: 100%;
+        background-size: contain;
+        height: 69rem;
+        text-align: center;
+        background-image: url('../images/paisaje10-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+
+    .seccion__segunda{
+        width: 80%;
+        flex-direction: column;
+        
+    }
+
+    .seccion__segunda img{
+        width: 70%;
+        margin-top: 4rem;
+    }
+
+    .button__conocermas{
+        width: 11rem;
+        height: 2.5rem;
+        margin: auto;
+        margin-top: 2rem;        
+    }
+
+    .button__conocermas a{
+        font-size: 1rem;
+    }
+    
   }
