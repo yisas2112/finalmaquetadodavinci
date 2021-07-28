@@ -1052,8 +1052,7 @@ form button{
         width: 80%;
         
     }
-
-    /*Segunda Sección Home*/
+    
     .seccion__primera_titulo__text{
         width: 100%;
         margin-top: 1rem;
@@ -1066,10 +1065,11 @@ form button{
         margin-top: 1rem;
     }    
 
+    /*Segunda Sección Home*/
     #seccion__segunda__container{
         width: 100%;
         background-size: contain;
-        height: 69rem;
+        height: 70rem;
         text-align: center;
         background-image: url('../images/paisaje10-mobile.jpg');
         background-repeat: no-repeat;
@@ -1079,6 +1079,7 @@ form button{
     .seccion__segunda{
         width: 80%;
         flex-direction: column;
+        padding: 0;
         
     }
 
@@ -1096,6 +1097,11 @@ form button{
 
     .button__conocermas a{
         font-size: 1rem;
+    }
+
+    .seccion__segunda__texto__button{
+        width: 100%;
+        
     }
     
   }
