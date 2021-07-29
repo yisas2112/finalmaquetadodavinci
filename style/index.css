@@ -289,7 +289,7 @@ p, span{
 
 
 
-/*Footer*/
+/*--------------------Footer--------------------------*/
 footer{
     background-color: #283642;     
     
@@ -308,6 +308,10 @@ footer{
 .footer__logo{
     display: flex;    
     align-items: center;
+}
+
+.logo-footer{
+    display: none;
 }
 
 .footer__logo .logo{
@@ -997,12 +1001,13 @@ form button{
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (min-width: 320px) {
     html{
         font-size: 70%;
     }
     body{
         width: 100%;
+        overflow-x:auto;
     }
 
     #principal{
@@ -1096,7 +1101,7 @@ form button{
         width: 11rem;
         height: 2.5rem;
         margin: auto;
-        margin-top: 2rem;        
+        margin-top: 1rem;        
     }
 
     .button__conocermas a{
@@ -1108,4 +1113,144 @@ form button{
         
     }
     
+    /*Gastronomía Home*/
+    #gastronomia{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #gastronomia h2{
+        margin-bottom: 0;
+    }
+    .gastronomia__comidas__container{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .gastronomia__comidas{
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    /*Eventos*/
+    #eventos_celebraciones__container{
+        width: auto;
+        text-align: center;
+    }        
+    
+
+    .eventos_celebraciones{
+        width: 70%;
+        margin: auto;
+    }
+
+    .eventos_celebraciones span{
+        font-size: 1.7rem;
+
+    }
+
+    .eventos_celebraciones__texto{
+        column-count: auto;
+        
+        
+    }
+
+    .eventos_celebraciones__texto__imagen{
+        flex-direction: column;        
+    }
+
+    .eventos_celebraciones__texto__imagen img{
+        margin-top: 2rem;
+    }
+    .eventos_celebraciones__texto__imagen p{
+        width: 100%;
+    }
+
+    .button__conocermas__eventos{
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+
+    /*Datos*/
+    #datos__container{
+        width: 100%;
+    }
+    .datos{
+        width: 80%;
+    }
+
+
+    /*Footer*/
+    footer{
+        width: 100%;
+    }
+    .footer__container{
+        width: 80%;
+    }
+
+    .footer__logo__redes__apps__container{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer__logo{
+        flex-direction: column;
+    }
+
+    .logo-footer{
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .footer__redes{
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        height: 3rem;
+    }
+
+    .footer__logo__redes__apps{
+        width: 100%;
+        
+    }
+
+    .footer__contacto__suscripcion__newletter{
+        display: none;
+    }
+
+    .footer_apps{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer__playstore{
+        width: auto;
+        height: 3.2rem;
+        margin-bottom: 0;
+    }
+    .footer__applestore{
+        width: auto;
+        height: 3.2rem;
+        margin-bottom: 0;
+        
+    }
+    .links__apps{
+        position: relative;
+    }
+
+    .footer__copyright{
+        font-size: 1rem;
+        text-align: center;
+    }
+        
+            
+
+
   }
