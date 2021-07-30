@@ -1050,8 +1050,8 @@ form button{
         justify-content: space-between;
     }
 
-    .nav_list_sections:hover{        
-        border-bottom: 3px #839786 solid;   
+    .nav-mobile .nav_list_sections:hover{        
+        border-bottom: none;
     }
 
     .nav-mobile li{
@@ -1084,10 +1084,7 @@ form button{
         border-bottom: none;
         color: white;
     }
-
-    #nav__list__lugares > ul > li a:hover{
-        border-bottom: 0.1875rem #839786 solid;
-    }    
+    
 
     .nav__menu__burger__icon__mostrar, .nav__menu__burger__icon__ocultar{
         display: flex;     
@@ -1319,4 +1316,73 @@ form button{
         font-size: 1rem;
         text-align: center;
     }
-}
+
+
+
+
+
+    /*------------------------------ HISTORIA-------------------*/
+    .primera__seccion__container{
+        width: 80%;
+        text-align: center;
+    }
+
+    .primera__seccion__container h2{
+        margin-bottom: 2rem;
+    }
+
+    .primera__seccion__container p{
+        column-count: auto;
+    }
+
+    .imagen__casas_islas__feroe{
+        width: 100%;
+        height: 10.3rem;        
+        background-image: url('../images/imagen-casas-islas-feroe-mobile.jpg');
+        background-size:contain;
+        background-repeat: no-repeat;
+
+    }
+    /*Segunda Sección*/
+    .segunda__seccion__container{
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+    .segunda__seccion{
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .segunda__seccion p{
+        column-count: auto;
+    }
+
+    .segunda__seccion blockquote{
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    /*---- Tercer Sección ----*/
+    .seccion_tercera__container{
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/fondo-historia-mobile.jpg');
+        padding: 1rem;
+        
+        
+    }
+    .seccion_tercera{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .seccion_tercera p{
+        margin: auto;
+    }
+}   
+
