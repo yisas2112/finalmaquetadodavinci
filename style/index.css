@@ -1011,7 +1011,8 @@ form button{
 
     #principal{
         height: 20rem;
-        background-size:contain;
+        background-size:auto;
+        background-image: url('../images/home-islas-feroe-dinamarca-mobile.jpg');
         
     }
     .logo-mobile{
@@ -1048,6 +1049,7 @@ form button{
         top: 0;
         padding: 30px;
         justify-content: space-between;
+        z-index: 2;
     }
 
     .nav-mobile .nav_list_sections:hover{        
@@ -1335,14 +1337,18 @@ form button{
         column-count: auto;
     }
 
+    .primera__seccion__bandera__escudos img{
+        width: 50%;
+    }
+
     .imagen__casas_islas__feroe{
         width: 100%;
         height: 10.3rem;        
         background-image: url('../images/imagen-casas-islas-feroe-mobile.jpg');
-        background-size:contain;
-        background-repeat: no-repeat;
-
+        background-size:auto;
     }
+
+
     /*Segunda Sección*/
     .segunda__seccion__container{
         width: 100%;
@@ -1369,9 +1375,14 @@ form button{
     /*---- Tercer Sección ----*/
     .seccion_tercera__container{
         width: 100%;
-        height: 100%;
+        height: 270px;        
         background-image: url('../images/fondo-historia-mobile.jpg');
-        padding: 1rem;
+        background-size: cover;        
+        
+        
+            
+        
+        
         
         
     }
@@ -1384,5 +1395,263 @@ form button{
     .seccion_tercera p{
         margin: auto;
     }
+
+    /*----------------- LUGARES -----------------------*/
+    .lugares__container{
+        width: 100%;
+    }
+
+    .lugares_gjogv{
+        width: 80%;
+    }
+
+    .lugares_gjogv p{
+        column-count: auto;
+    }
+
+    .lugares_gjogv img{
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+
+    .lugares__klaksvik__container{
+        width: 100%;
+    }
+
+    .lugares__klaksvik__container{
+        width: 100%;
+    }
+
+    .lugares__klaksvik{
+        width: 80%;
+        text-align: center;
+    }
+
+    .lugares__klaksvik h2{
+        margin-bottom: 1rem;
+    }
+
+    .lugares__klaksvik__texto__imagen{
+        flex-direction: column;
+    }
+
+    .lugares__klaksvik__texto__imagen p{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .lugares__mykines__container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .lugares__mykines__imagen__text{
+        width: 80%;
+        margin: auto;
+    }
+
+    .lugares__mykines__imagen__text img{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .lugares__sorvagsvatn__container{
+        width: 100%;
+    }
+
+    .lugares__sorvagsvatn{
+        width: 80%;
+        text-align: center;
+    }
+
+    .lugares__sorvagsvatn p{
+        column-count: auto;
+    }
+
+    .lugares__sorvagsvatn img{
+        width: 100%;
+    }
+
+    .lugares__kalsoy__container{
+        width: 100%;
+    }
+
+    .lugares__kalsoy{
+        width: 80%;
+        text-align: center;
+    }
+
+    .lugares__kalsoy p{
+        column-count: auto;
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+
+    .lugares__kalsoy img{
+        width: 100%;
+    }
+
+
+
+
+    /*------------------------- EVENTOS -------------------------*/
+
+    .eventos_titulo_descripcion{
+        width: 80%;
+        text-align: center;
+    }
+
+    .eventos_titulo_descripcion p{
+        column-count: auto;
+    }
+
+    .evento__olavsoka__container{
+        width: 100%;
+    }
+
+    .evento__olavsoka{
+        width: 80%;
+        text-align: center;
+    }
+
+    .evento__olavsoka p{
+        column-count: auto;
+        text-align: justify;
+    }
+
+    .evento__olavsoka img{
+        width: 100%;
+    }
+
+    .evento__g{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .evento__g p{
+        column-count: auto;
+        text-align: justify;
+    }
+    
+    .evento__g img{
+        width: 100%;
+    }
+
+    .evento__summartonar__container{
+        width: 100%;
+    }
+
+    .evento__summartonar{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .evento__summartonar p{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .evento__summartonar img{
+        width: 100%;
+    }
+
+    .evento__torsfest{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .evento__torsfest__titulo_text{
+        width: 80%;
+        text-align: center;
+    }
+
+    .evento__torsfest__titulo_text p{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .evento__torsfest img{
+        width: 80%;
+    }
+    /*---------------------------------*/
+    .evento__agrynnuni__container{
+        width: 100%;
+    }
+
+    .evento__agrynnuni{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .evento__agrynnuni__titulo_text p{
+        text-align: justify;
+        margin-bottom: 2rem;
+
+    }
+
+    .evento__agrynnuni img{
+        width: 100%;
+    }
+
+    #principal__contacto{
+        background-size: contain;
+        background-image: url('../images/home-islas-feroe-dinamarca2-mobile.jpg');
+        background-size: auto;
+        
+    }
+
+    #form__main__container{
+        width: 100%;
+        margin: auto;
+        top: -150px;
+    }
+
+    .form__titulo__desc{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+
+    .form__container{
+        width: 80%;
+        flex-direction: column;
+        height:auto;
+        margin: auto;   
+        
+    }
+
+    .form{
+        width: 100%;        
+        margin-top: 20rem;
+        margin-bottom: 3rem;
+    }
+
+    form{
+        margin: auto;
+        border: 2px #738677 solid;
+        border-radius: 20px;
+        height: 40rem;
+        padding-top: 2rem;
+    }
+
+    .contacto_back{
+        background-color: #373737;
+    }
+
+    video{
+        width: 100%;
+        margin-top: 2rem;        
+    }
 }   
+
+
+
+
 
