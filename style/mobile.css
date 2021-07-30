@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 480px) and (min-width: 320px) {
     html{
         font-size: 70%;
@@ -15,6 +14,8 @@
         
     }
     .logo-mobile{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 70px;
         height: 70px;
@@ -23,7 +24,9 @@
 
     .nav{
         width: 80%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         
     }
 
@@ -40,14 +43,21 @@
     .nav-mobile{        
         width: 100%;                
         height: 26rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;        
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;        
         left: 0;
         position: absolute;
         background-color:#738677;                       
         top: 0;
         padding: 30px;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         z-index: 2;
     }
 
@@ -88,6 +98,8 @@
     
 
     .nav__menu__burger__icon__mostrar, .nav__menu__burger__icon__ocultar{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;     
         font-size: 3rem;
         color: white;        
@@ -105,9 +117,15 @@
         height: 4.5rem;        
         background-color:#738677;
         border-radius: 30px;     
+        display: -webkit-box;     
+        display: -ms-flexbox;     
         display: flex;
-        justify-content: center;    
-        align-items: center;    
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;    
+        -webkit-box-align: center;    
+            -ms-flex-align: center;    
+                align-items: center;    
         
         
         
@@ -115,9 +133,14 @@
 
     #seccion__primera{    
         width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin:auto;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     h1{
@@ -152,7 +175,10 @@
 
     .seccion__segunda{
         width: 80%;        
-        flex-direction: column;
+        -webkit-box-orient: vertical;        
+        -webkit-box-direction: normal;        
+            -ms-flex-direction: column;        
+                flex-direction: column;
         padding: 0px 0px 2rem 0px;
         height: 60rem;
         
@@ -192,7 +218,10 @@
         margin-bottom: 0;
     }
     .gastronomia__comidas__container{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 100%;
         margin: auto;
         text-align: center;
@@ -223,13 +252,18 @@
     }
 
     .eventos_celebraciones__texto{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
         
         
     }
 
     .eventos_celebraciones__texto__imagen{
-        flex-direction: column;        
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;        
     }
 
     .eventos_celebraciones__texto__imagen img{
@@ -263,14 +297,20 @@
     }
 
     .footer__logo__redes__apps__container{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 80%;
         margin: auto;
         text-align: center;
     }
 
     .footer__logo{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .logo-footer{
@@ -296,7 +336,9 @@
 
     .footer_apps{
         width: 100%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .footer__playstore{
         width: auto;
@@ -333,7 +375,9 @@
     }
 
     .primera__seccion__container p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
     }
 
     .primera__seccion__bandera__escudos img{
@@ -362,7 +406,9 @@
     }
 
     .segunda__seccion p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
     }
 
     .segunda__seccion blockquote{
@@ -398,7 +444,9 @@
     }
 
     .lugares_gjogv p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
     }
 
     .lugares_gjogv img{
@@ -425,7 +473,10 @@
     }
 
     .lugares__klaksvik__texto__imagen{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .lugares__klaksvik__texto__imagen p{
@@ -459,7 +510,9 @@
     }
 
     .lugares__sorvagsvatn p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
     }
 
     .lugares__sorvagsvatn img{
@@ -476,7 +529,9 @@
     }
 
     .lugares__kalsoy p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
         text-align: justify;
         margin-bottom: 1rem;
     }
@@ -496,7 +551,9 @@
     }
 
     .eventos_titulo_descripcion p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
     }
 
     .evento__olavsoka__container{
@@ -509,7 +566,9 @@
     }
 
     .evento__olavsoka p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
         text-align: justify;
     }
 
@@ -523,7 +582,9 @@
         text-align: center;
     }
     .evento__g p{
-        column-count: auto;
+        -webkit-column-count: auto;
+           -moz-column-count: auto;
+                column-count: auto;
         text-align: justify;
     }
     
@@ -539,7 +600,10 @@
         width: 80%;
         margin: auto;
         text-align: center;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .evento__summartonar p{
@@ -553,7 +617,10 @@
 
     .evento__torsfest{
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .evento__torsfest__titulo_text{
@@ -577,7 +644,10 @@
     .evento__agrynnuni{
         width: 80%;
         margin: auto;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .evento__agrynnuni__titulo_text p{
@@ -613,7 +683,10 @@
 
     .form__container{
         width: 80%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height:auto;
         margin: auto;   
         
@@ -642,8 +715,5 @@
         margin-top: 2rem;        
     }
 }   
-
-
-
 
 
