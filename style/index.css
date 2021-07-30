@@ -1091,7 +1091,7 @@ form button{
     .nav__menu__burger__icon__mostrar, .nav__menu__burger__icon__ocultar{
         display: flex;     
         font-size: 3rem;
-        color: white;        
+        color: red;        
         text-decoration: none;
         cursor: pointer;
         z-index: 2;
@@ -1116,7 +1116,6 @@ form button{
         display: flex;
         justify-content: center;        
         z-index: 2;
-        color: red;
         
         
     }
