@@ -1095,19 +1095,12 @@ form button{
         color: white;        
         text-decoration: none;
         cursor: pointer;
-        z-index: 2;
+        z-index: 3;
     }
 
     .nav__menu__burger__icon__mostrar_nomostrar , .nav__menu__burger__icon__ocultar__nomostrar{
-        display: none;
+        display: none;        
     }
-
-    .show__menu{
-        display: block;
-    }
-
-
-    
 
     .nav__menu__burger__icon__container{
         width: 4.5rem;
@@ -1115,8 +1108,9 @@ form button{
         background-color:#738677;
         border-radius: 30px;     
         display: flex;
-        justify-content: center;        
-        z-index: 2;
+        justify-content: center;    
+        align-items: center;    
+        
         
         
     }
