@@ -11,13 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <header id="principal">
     <nav class="nav" id="top">
-        <div class="logo"></div>        
-        <div class="logo-mobile"></div>
-        <img class="nav__menu__burger__icon" src="./icons/menuburger.svg" alt="">
+        <a href="./index.html" class="logo"><div ></div></a>
+        <a href="./index.html"><div class="logo-mobile"></div></a>        
+        <div class="nav__menu__burger__icon__container">
+            <a href="javascript:void(0);" id="slide_nav_button" class="nav__menu__burger__icon__mostrar" onclick="mostrar()" >☰</a>            
+            <a href="javascript:void(0);" id="slide_nav_button" class="nav__menu__burger__icon__ocultar__nomostrar" onclick="ocultar()" >x</a>            
+        </div>
         <ul class="nav-desktop">      
             <li class="nav_list_sections"><a href="./index.html">Home</a></li>
             <li class="nav_list_sections"><a href="./historia.html">Historia</a></li>
@@ -34,7 +39,7 @@
             <li class="nav_list_sections"><a href="./eventos.html">Eventos</a></li>
             <li class="nav_list_sections"><a href="./contacto.html">Contacto</a></li>
         </ul>
-        <ul class="nav-mobile">            
+        <ul class="nav-hidden">            
             <li class="nav_list_sections"><a href="./index.html">Home</a></li>
             <li class="nav_list_sections"><a href="./historia.html">Historia</a></li>
             <li class="nav_list_sections" id="nav__list__lugares"><a href="./lugares.html" class="nav__item__lugares">Lugares</a>
@@ -173,5 +178,6 @@
             </div>
         </div>        
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

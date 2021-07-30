@@ -48,7 +48,7 @@ nav{
     font-family: 'Rubik', sans-serif;    
 }
 
-.nav-mobile{
+.nav-hidden{
     display: none;
 }
 
@@ -63,7 +63,7 @@ nav{
     
 }
 
-.nav__menu__burger__icon{
+.nav__menu__burger__icon__mostrar, .nav__menu__burger__icon__ocultar{
     display: none;
 }
 
@@ -991,8 +991,7 @@ form button{
 
 #nav__list__lugares:hover > ul > li{    
     width: 4.6875rem;
-    height: 1.75rem;
-    
+    height: 1.75rem;    
     border-bottom: 0.125rem #839786 solid;
     margin: 0.625rem 0 0.5rem;
     display: flex;
@@ -1025,6 +1024,7 @@ form button{
     .nav{
         width: 80%;
         justify-content: space-between;
+        
     }
 
     .logo{
@@ -1034,15 +1034,89 @@ form button{
     .nav-desktop{
         display: none;
     }
+    .nav-hidden{        
+        display: none;
+    }   
+    .nav-mobile{        
+        width: 100%;                
+        height: 26rem;
+        display: flex;
+        flex-direction: column;        
+        left: 0;
+        position: absolute;
+        background-color:#738677;                       
+        top: 0;
+        padding: 30px;
+        justify-content: space-between;
+    }
 
-    .nav-mobile{
+    .nav_list_sections:hover{        
+        border-bottom: 3px #839786 solid;   
+    }
+
+    .nav-mobile li{
+        
+        font-size: 20px;
+        
+    }
+
+    #nav__list__lugares{
+        height: auto;
+        
+    }
+
+    #nav__list__lugares:hover > ul{    
+        width: 40%;
+        height: 16rem;        
+        display: block;
+        color: white;    
+        position: absolute;
+        left: 12rem;
+        border-color: black;
+        padding: 0 0 0 30px;
+        margin-top: -50px;
+        
+    }
+
+    #nav__list__lugares:hover > ul > li{    
+        width: 100%;
+        height: 2.4rem;    
+        border-bottom: none;
+    }
+
+    #nav__list__lugares > ul > li a:hover{
+        border-bottom: 0.1875rem #839786 solid;
+    }    
+
+    .nav__menu__burger__icon__mostrar, .nav__menu__burger__icon__ocultar{
+        display: flex;     
+        font-size: 3rem;
+        color: white;        
+        text-decoration: none;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .nav__menu__burger__icon__mostrar_nomostrar , .nav__menu__burger__icon__ocultar__nomostrar{
         display: none;
     }
 
-    .nav__menu__burger__icon{
+    .show__menu{
+        display: block;
+    }
+
+
+    
+
+    .nav__menu__burger__icon__container{
+        width: 4.5rem;
+        height: 4.5rem;        
+        background-color:#738677;
+        border-radius: 30px;     
         display: flex;
-        width: 50px;
-        height: 50px;
+        justify-content: center;        
+        z-index: 2;
+        
     }
 
     #seccion__primera{    
@@ -1249,8 +1323,4 @@ form button{
         font-size: 1rem;
         text-align: center;
     }
-        
-            
-
-
-  }
+}
