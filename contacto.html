@@ -68,23 +68,21 @@
                         <video src="./video/video-footer.mp4" autoplay controls loop muted></video>
                     </main>
                     <div class="form">        
-                        <form action="gracias.html" method="post" enctype="multipart/form-data">
-                            
+                        <!-- <form action="mailto:direcciondelcorreo@correo.com" method="post" enctype="text/plain"> </form> -->
+                        <form action="/gracias.html">                            
                             <input type="text" name="nombre" id="nombre" required placeholder="Nombre *"/>                            
                             <input type="email" name="introducir_email" id="email" required placeholder="Email *"/>                
-
-                            <label for="asunto" class="colocar_asunto">Seleccione Asunto                        
-                            </label>
+                            <label for="asunto" class="colocar_asunto">Seleccione Asunto</label>
                             <select name="select" id="asunto">                    
                                 <option value="Puntos Turisticos" selected>Puntos Turisticos</option>
                                 <option value="Gastronomía" >Gastronomía</option>
                                 <option value="Eventos">Eventos</option>
                             </select>
                             <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
-                            
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea>                             
                             <button type="submit" id="enviar">Enviar</button>                
                         </form>
+                        
                     </div>
                 </section>
             </div>
